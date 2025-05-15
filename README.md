@@ -58,3 +58,5 @@ Script, Microsoft’un güvenlik önlemlerine takılmamak için undetected_chrom
 Proxy sayısı, hesap sayısına göre otomatik ayarlanır.
 
 Proxylerin sağlıklı çalışması için API bağlantılarının aktif olması gerekir.
+
+Kendi API-lerinizi kullanmaniz daha az **ERROR**'a sebep olur.
