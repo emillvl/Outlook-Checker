@@ -67,7 +67,9 @@ Make sure your proxy API sources are active for best performance
 
 Using your own proxy APIs will reduce the number of errors
 
-🇹🇷 Türkçe Rehber 🇹🇷
+
+
+## 🇹🇷 Türkçe Rehber 🇹🇷
 
 
 
