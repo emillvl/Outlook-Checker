@@ -1,3 +1,11 @@
+## Legal Disclaimer / Yasal Uyarı
+English:
+This tool is intended for educational and ethical testing purposes only. It must not be used to access any accounts, systems, or data without explicit permission from the owner. The developer is not responsible for any misuse or damage caused by the use of this tool. By using this software, you agree to comply with all applicable laws and regulations.
+
+Türkçe:
+Bu araç yalnızca eğitim ve etik test amaçları için tasarlanmıştır. Sahiplerinden açık izin almadan herhangi bir hesaba, sisteme veya veriye erişmek için kullanılmamalıdır. Bu aracın yanlış kullanımından veya sebep olduğu zararlardan geliştirici sorumlu değildir. Bu yazılımı kullanarak, yürürlükteki tüm yasalara ve yönetmeliklere uyacağınızı kabul etmiş olursunuz
+
+
 ## Outlook Account Verification Bot 🚀
 ## 🇬🇧 Guide in English 🇬🇧
 
