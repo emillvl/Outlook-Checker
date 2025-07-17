@@ -1,3 +1,76 @@
+## Outlook Account Verification Bot 🚀
+## 🇬🇧 Guide in English 🇬🇧
+
+This project is a Python-based bot that automatically verifies Outlook (Microsoft) accounts using proxy support and a headless Chrome browser.
+With multithreading and dynamic proxy usage, it can check accounts at high speed.
+
+## Features
+Automatically fetches proxy lists from proxy APIs and tests them for availability
+
+Uses headless Chrome with undetected_chromedriver for realistic browser behavior
+
+Detects banned proxies and replaces them with fresh ones
+
+Runs multiple threads to check many accounts in parallel
+
+Saves successful logins to the valid_accounts.txt file
+
+Logs statistics such as number of successes, failures, and errors
+
+## Requirements
+Python 3.8+
+
+undetected-chromedriver
+
+Selenium
+
+Requests
+
+Install dependencies with:
+
+`pip install undetected-chromedriver selenium requests`
+
+
+## Usage
+Write the accounts you want to check in accounts.txt in the format:
+
+`email:password`
+Proxy lists will be automatically fetched from APIs as needed.
+
+To run the script:
+
+`python -m checker.py`
+After the check, all valid accounts will be saved to valid_accounts.txt.
+
+## Files
+accounts.txt: List of accounts to be checked
+
+valid_accounts.txt: Stores successfully verified accounts
+
+your_script_name.py: Main Python script
+
+## How It Works
+Pulls and validates proxies from public proxy APIs. (You can add yours, if  you want)
+
+Launches a separate thread for each account and attempts login using headless Chrome
+
+Detects bans and replaces blocked proxies with working ones
+
+Saves successful logins to a file
+
+## Important Notes
+Script uses undetected_chromedriver to bypass Microsoft's bot protection
+
+The number of proxies used is adjusted based on the number of accounts
+
+Make sure your proxy API sources are active for best performance
+
+Using your own proxy APIs will reduce the number of errors
+
+🇹🇷 Türkçe Rehber 🇹🇷
+
+
+
 # Outlook Hesap Doğrulama Botu 🚀
 
 Bu proje, **Python** kullanarak Outlook (Microsoft) hesaplarını proxy destekli ve headless Chrome ile otomatik olarak doğrulayan bir bot içerir.  
